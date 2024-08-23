@@ -1,0 +1,154 @@
+a{
+    font-size: 12.5px;
+    margin-right: 7.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+/*indica cuando se pone el cursor sobre un enlace*/
+a:hover{
+    /*subraya la palabra*/
+    text-decoration: underline black;
+}
+img{
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+    border-radius: 125px;
+    margin-right: 7.5px;
+    margin-left: 7.5px;
+}
+/*para cuando se pone el cursor sobre una imagen*/
+img:hover{
+    background-color: rgb(239, 232, 232);
+}
+.item{
+    margin-left: 1230px;
+}
+.logo{
+    width: 275px;
+    border-radius: 0px;
+    height: 90px;
+    margin-top: 75px;
+    margin-left: 625px;
+    background-color: black;
+}
+/*esto es para trabajar con el cuadro de entrada de texto (form)*/
+/*
+input[type=text] {
+    width: 540px;
+    font-size: 15px;
+    margin-left: 475px;
+    margin-top: 28.5px;
+    border-radius: 475px;
+    height: 42.5px;
+    border-color: rgba(208, 198, 198, 0.489);
+    esto es para insertarle una imagen dentro del cuadro de texto
+    background-image: url(data:image/png;base64,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);
+    indicar que no se repita la imagen
+    background-repeat: no-repeat;
+    esto es para darle la posicion a la imagen dentro del cuadro de texto
+    background-position: 14px 13.5px;
+    el tamaño de la imagen
+    background-size: 2.8%;
+    darle un espacio para que al escribir se respete el espacio de la imagen
+    padding-left: 40px;
+  }*/
+
+  input[type=text] {
+    border-style: none;
+    width: 380px;
+    height: 20px;
+  }
+  /*esto nos sirve para cuando seleccionamos la barra de texto*/
+  input[type=text]:focus {
+    border-style:  none;
+  }
+
+  section{ 
+    border: solid 3px;
+    border-color: rgba(208, 198, 198, 0.489);
+    width: 540px;
+    font-size: 15px;
+    margin-left: 475px;
+    margin-top: 28.5px;
+    border-radius: 475px;
+    height: 42.5px;
+    padding-left: 20px;
+    background-color: white;
+    padding-top: 0px;
+  }
+
+  .search{
+    width: 20px;
+    height: 18px;
+  }
+
+  .search_voice{
+    width: 40px;
+    height: 20px;
+  }
+
+  .search_lens{
+    width: 30x;
+    height: 23px;
+  }
+
+  .button1{
+    margin-left: 610px;
+  }
+  button{
+    width: 145px;
+    height: 36px;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 13.5px;
+    background-color: rgb(244, 248, 248);
+    border-style: none;
+    /*para que cambie el cursor de flechita a manita*/
+    cursor: pointer;
+  }
+  p{
+    text-align: center;
+    margin-top: 27.5px;
+    font-size: 13.5px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #español{
+    color: rgb(36, 36, 156);
+  }
+  h2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(244, 246, 246);
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 25px;
+    margin-top: 197px;
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+  footer{
+    background-color:rgb(244, 246, 246);
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 25px;
+    margin-top: 0px;
+    border-top: solid 1px;
+    border-color: rgb(222, 218, 218);
+  }
+  .pie_pagina{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-right: 20px;
+  }
+  .pie_pagina_der{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-left: 650px;
+    margin-right: 20px;
+  }
